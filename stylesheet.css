@@ -1,0 +1,466 @@
+:root{
+    --Lato: font-family: "Lato", sans-serif;
+    --Oswald:font-family: "Oswald", sans-serif;
+    --Green:#22AA46;
+    --crayon:#277D69;
+    --blue:#0E97D9;
+    --lightgreen:#3FC9A8;
+    --lightblue:#1CA2C4;
+    --black:#000;
+    --white:#fff;
+}
+*{
+    margin: 0;
+    padding: 0;
+}
+.container{
+    background-color:var(--black);
+    width: 100%;
+    margin: 0px 0px 5px 0px;
+   
+    
+}
+.header{
+     color: var(--white);
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    font-family: "Oswald", sans-serif;
+}
+.welcome-page ul{
+    display: flex;
+    gap: 20%;
+    list-style: none;
+}
+.twitter{
+    text-decoration: none;
+    color:white;
+}
+.content-1{
+    background-image: url(Assets/Repeat\ Grid\ 1.png);
+    background-size:cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    font-family: "Lato", sans-serif;
+    color: white;  
+    /* height: 100vh; */
+    text-align: center;
+}
+.content-1 span{
+    color: #3FC9A8;
+}
+.content-1 h3{
+    padding: 40px ;
+    font-size: 30px;
+}
+.content-1 p{
+    font-size: 40px;
+}
+.start{
+    background-color: #22AA46;
+    color: #fff;
+    font-family:"Oswald", sans-serif;
+    width: 120px;
+    height: 30px;
+    border: none;
+    border-radius: 3px;
+    margin: 15px;
+    cursor: pointer;
+}
+.app{
+    background-color:#fff;
+    color: #22AA46;
+    font-family:"Oswald", sans-serif;
+    width: 120px;
+    height: 30px;
+    border: 1px solid ;
+    border-radius: 3px;
+    cursor: pointer;
+
+}
+    
+.content-2{
+    width: 100%;
+    display: flex;
+    background-image: url(Assets/Group\ 2803.png);
+    background-size: contain;
+    /* background-color:#cef1e9 ; */
+    
+}
+.para-content-2{
+    width: 50%;
+    margin:auto;
+    
+}
+.para-content-2 h2{
+    font-size: 36px;
+    color:#277D69;
+    margin:auto;
+    font-family: "Oswald", sans-serif;
+}
+.para-content-2 p{
+    /* width: 60%; */
+    margin: auto;
+    line-height: 1.4;
+    font-family: "Lato", sans-serif;
+}
+.View-btn{
+    margin: 20px auto;
+    width: 130px;
+    height: 30px;
+    background-color: #0E97D9;
+    color: #fff;
+    border: none;
+    border-radius: 3px;
+    font-family: "Oswald", sans-serif;
+    
+}
+.content-3{
+    width: 100%;
+    display: flex;
+    background-image: url(Assets/Group\ 2804.png);
+}
+.content-3-img{
+    width: 50%;
+    text-align: center;
+    
+}
+.para-content-3{
+    width: 50%;
+    margin: auto;
+}
+.para-content-3 h2{
+    color: #3FC9A8;
+    margin: 10px auto;
+    font-size: 30px;
+    font-family: "Oswald", sans-serif;
+}
+.para-content-3 p{
+    width: 50%;
+    color: #fff;
+    padding: 0px 0px 10px 0px;
+    font-family: "Lato", sans-serif;
+}
+.visit-btn{
+    width: 110px;
+    height: 25px;
+    color: #fff;
+    background-color: #1CA2C4;
+    border-radius: 2px;
+    border: none;
+    padding: 5px;
+    font-family: "Oswald", sans-serif;
+}
+.content-4{
+    background-image: url(Assets/Group\ 2805.png);
+    background-size: cover;
+    background-repeat: no-repeat;    
+    margin:10px
+
+    
+}
+.para-content-4 {
+    width: 100%;
+    
+}
+.para-content-4 h2{
+    width: 50%;
+    font-size: 34px;
+    padding: 60px 20px 0px 20px ;
+    /* padding: 100px 40px 0px 40px; */
+    color: #277D69;
+    font-family: "Oswald", sans-serif;
+}
+.para-content-4 p{
+    padding: 5px 20px 80px 20px;
+    font-family: "Lato", sans-serif;
+}
+.content-5{
+    background-image: url(Assets/Group\ 2806.png);
+    margin: 10px;
+    
+    
+}
+.para-content-5{
+    text-align: center;
+    color: #fff;
+    width: 100%;
+    font-family: "Lato", sans-serif;
+    
+}
+.para-content-5 h2{
+    color: #3FC9A8;
+    font-size: 34px;
+    padding: 20px;
+    font-family: "Oswald", sans-serif;
+    
+}
+.para-content-5 p{
+    /* padding: 10px 450px; */
+    width: 50%;
+    margin: 5px auto;
+}
+.para-content-5 .icon{
+    display: flex;    
+}
+.icon{
+    justify-content: space-evenly;
+    padding: 20px 0px 50px 0px;
+}
+.icon li{
+    display: flex;
+    flex-direction: column;
+    width:5%;
+}
+.content-6{
+    width: 100%;
+}
+.para-content-6{
+    font-size: 30px;
+    padding: 40px 0px 90px;
+    text-align: center;
+    font-family: "Oswald", sans-serif;
+}
+
+.content-6-start-btn{
+    width: 120px;
+    height: 30px;
+    background-color: #22AA46;
+    color: #fff;
+    border: none;
+    border-radius: 3px;
+    font-family: "Oswald", sans-serif;
+    
+}
+.content-7{
+    background-image: url(Assets/Group\ 2807.png);
+    color: #fff;
+    width: 100%;
+    
+    
+}
+.footer-info{
+    display: flex;
+    justify-content: space-around;
+    padding: 20px;
+    
+}
+.account li{
+    list-style: none;
+    line-height: 1.2; 
+    font-family: "Lato", sans-serif;
+      
+}
+.info li{
+    list-style: none;
+    line-height: 1.2;
+    font-family: "Lato", sans-serif;
+}
+.Subscribe h5{
+    padding: 5px;
+    font-family: "Lato", sans-serif;
+
+
+}
+.subscribe-btn{
+    padding: 10px 0px 0px
+}
+.subscribe-btn input{
+    width: 160px;
+    height: 25px;
+}
+.subscribe-btn button{
+    width: 80px;
+    height: 25px;
+    background-color:#48b164;
+    color: #fff;
+    border: none;
+    border-radius: 2px;
+    text-align: center;
+    font-family: "Oswald", sans-serif;
+}
+.footer-icons{
+    display: flex;
+    justify-content: space-around;
+    font-family: "Lato", sans-serif;
+}
+.social-icons span{       
+    list-style: none;  
+}
+.social-connect{
+    font-family: "Oswald", sans-serif;
+}
+@media  (max-width:475px) {
+    .content-2{
+        display: flex;
+        flex-direction:column-reverse;
+    }
+    .para-content-2{
+        width: 90%;
+        margin:auto;
+        
+    }
+    .content-3{
+        display: flex;
+        flex-direction: column;
+    }
+    .content-3-img{
+        width: 100%;
+        text-align: center;
+        
+    }
+    .para-content-3{
+        width: 90%;
+        margin: auto;
+    }
+    .para-content-3 h2{
+        color: #3FC9A8;
+        margin: 10px auto;
+        font-size: 30px;
+    }
+    .para-content-3 p{
+        width: 80%;
+        color: #fff;
+    }
+    .visit-btn{
+        width: 110px;
+        height: 25px;
+        color: #fff;
+        background-color: #1CA2C4;
+        border-radius: 2px;
+        border: none;
+        padding: 5px;
+    }
+    .content-3 button{
+        margin: 20px 0px 40px 0px;
+    }
+    .content-4{
+        background-image: url(Assets/Group\ 2805.png);
+        background-size:cover;
+        background-repeat: no-repeat; 
+        background-position:bottom;   
+        margin:20px
+    
+        
+    }
+    .para-content-4 {
+        width: 100%;
+        
+    }
+    .para-content-4 h2{
+        width: 90%;
+        font-size: 34px;
+        color: #277D69;
+    }
+    .content-5{
+        background-image: url(Assets/Group\ 2806.png);
+        margin: 20px;
+        
+        
+    }
+    .para-content-5{
+        text-align: center;
+        color: #fff;
+        width: 100%;
+        
+    }
+    .para-content-5 h2{
+        color: #3FC9A8;
+        font-size: 34px;
+        /* padding: 20px; */
+        
+    }
+    .para-content-5 p{
+        width: 90%;
+        margin: 5px auto;
+    }
+    .para-content-5 .icon{
+        display: flex; 
+           
+    }
+    .icon{
+        justify-content: space-around;
+        padding: 20px 0px 50px 0px;
+    }
+    .icon li{
+        display: flex;
+        flex-direction: column;
+        width:10%;
+    }
+    .content-7{
+        background-image: url(Assets/Group\ 2807.png);
+        color: #fff;
+        width: 100%;
+        
+    }
+    .footer-info{
+        display: flex;
+        flex-direction: column;
+        padding: 20px;
+        text-align: center;
+        
+    }
+    .account li{
+        list-style: none;
+        line-height: 1.8;   
+    }
+    .info li{
+        list-style: none;
+        line-height: 1.8;
+    }
+    .Subscribe h3{
+        /* margin: 15px; */
+        /* width: 100%; */
+    
+    }
+    .Subscribe h5{
+        margin: ;
+    }
+   
+    .subscribe-btn{
+        padding: 10px 0px 0px
+    }
+    .subscribe-btn input{
+        width: 99%;
+        height: 25px;
+        
+        
+    }
+    .subscribe-btn button{
+        width: 100%;
+        height: 25px;
+        background-color:#48b164;
+        color: #fff;
+        border: none;
+        border-radius: 2px;
+        text-align: center;
+        margin: 10px auto;
+    }
+    .footer-icons{
+        display: flex;
+        flex-direction: column;
+        justify-content: space-around;
+        text-align: center;
+    }
+    .social-connect{
+        text-align: center;
+        margin: 10px auto;
+        font-family: "Oswald", sans-serif;
+    }
+    .social-icons span{       
+        list-style: none;  
+    }
+    .social-icons{
+        margin: 10px;
+    }
+    .footer-icons p{
+        margin: 10px 0px 50px 0px;
+    }
+    
+    
+    
+
+    
+}
+
+
